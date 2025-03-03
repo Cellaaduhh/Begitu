@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<style>
+    body, h1, h2, h3, h4, h5, h6, p, span, a, div {
+        color: #000 !important; /* Memastikan semua teks terlihat */
+    }
+</style>
+
+<head>
+<style>
+    body, h1, h2, h3, h4, h5, h6, p, span, a, div {
+        color: #000 !important; /* Memastikan semua teks terlihat */
+    }
+</style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            AOS.init({ duration: 1200, easing: "ease-out-back", once: true });
+        });
+    </script>
+
+<style>
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(15, 52, 96, 0.8);
+        backdrop-filter: blur(10px);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+</style>
+
+<style>
+    .parallax {
+        background-image: url('https://source.unsplash.com/random/1920x1080/?technology');
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+</style>
+
+<style>
+    .service-card {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    }
+</style>
+
+<style>
+    .btn {
+        background: linear-gradient(45deg, #f39c12, #e74c3c);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    }
+    .btn:hover {
+        background: linear-gradient(45deg, #e67e22, #c0392b);
+        transform: scale(1.1);
+        box-shadow: 0px 6px 15px rgba(0,0,0,0.3);
+    }
+</style>
+</head>
+
+<head>
+<style>
+    body, h1, h2, h3, h4, h5, h6, p, span, a, div {
+        color: #000 !important; /* Memastikan semua teks terlihat */
+    }
+</style>
+
+<head>
+<style>
+    body, h1, h2, h3, h4, h5, h6, p, span, a, div {
+        color: #000 !important; /* Memastikan semua teks terlihat */
+    }
+</style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            AOS.init({ duration: 1200, easing: "ease-out-back", once: true });
+        });
+    </script>
+
+<style>
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(15, 52, 96, 0.8);
+        backdrop-filter: blur(10px);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+</style>
+
+<style>
+    .parallax {
+        background-image: url('https://source.unsplash.com/random/1920x1080/?technology');
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+</style>
+
+<style>
+    .service-card {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    }
+</style>
+
+<style>
+    .btn {
+        background: linear-gradient(45deg, #f39c12, #e74c3c);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    }
+    .btn:hover {
+        background: linear-gradient(45deg, #e67e22, #c0392b);
+        transform: scale(1.1);
+        box-shadow: 0px 6px 15px rgba(0,0,0,0.3);
+    }
+</style>
+</head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            AOS.init({ duration: 1000, easing: "ease-in-out", once: true });
+        });
+    </script>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+    .btn {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    }
+</style>
+
+<style>
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(15, 52, 96, 0.8);
+        backdrop-filter: blur(10px);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+</style>
+
+<style>
+    .parallax {
+        background-image: url('https://source.unsplash.com/random/1920x1080/?technology');
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+</style>
+
+<style>
+    .service-card {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    }
+</style>
+
+<style>
+    .btn {
+        background: linear-gradient(45deg, #f39c12, #e74c3c);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    }
+    .btn:hover {
+        background: linear-gradient(45deg, #e67e22, #c0392b);
+        transform: scale(1.1);
+        box-shadow: 0px 6px 15px rgba(0,0,0,0.3);
+    }
+</style>
+</head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CELLA DIGITAL</title>
+
+    <!-- Load Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Load Wavify.js -->
+    <script src="https://unpkg.com/wavify/wavify.js"></script>
+    <script src="https://unpkg.com/wavify/waves.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(45deg, #1a1a2e, #16213e); color: #ffffff;
+            text-align: center;
+            overflow-x: hidden;
+            color: #ffffff;
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #0f3460, #16213e);
+            padding: 25px;
+            font-size: 26px;
+            font-weight: bold;
+            position: relative;
+            z-index: 2;
+            color: white;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 0 0 15px 15px;
+        }
+
+        .box {
+            background: #ffffff;
+            padding: 20px;
+            margin: 15px auto;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 400px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            animation: floating 3s ease-in-out infinite alternate;
+            color: #ffffff;
+            border-left: 5px solid #0f3460;
+        }
+
+        .box:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn {
+            display: inline-block;
+            background: #4caf50;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+        }
+
+        .btn:hover {
+            background: #388e3c;
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(76, 175, 80, 0.5);
+        }
+
+        .hidden {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
+        }
+
+        #wave {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 150px;
+            background: linear-gradient(45deg, #0f3460, #16213e);
+            z-index: -1;
+        }
+    </style>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+    .btn {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    }
+</style>
+
+<style>
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(15, 52, 96, 0.8);
+        backdrop-filter: blur(10px);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+</style>
+
+<style>
+    .parallax {
+        background-image: url('https://source.unsplash.com/random/1920x1080/?technology');
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+</style>
+
+<style>
+    .service-card {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    }
+</style>
+
+<style>
+    .btn {
+        background: linear-gradient(45deg, #f39c12, #e74c3c);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    }
+    .btn:hover {
+        background: linear-gradient(45deg, #e67e22, #c0392b);
+        transform: scale(1.1);
+        box-shadow: 0px 6px 15px rgba(0,0,0,0.3);
+    }
+</style>
+</head>
+<body>
+
+<style>
+    .product-section {
+        text-align: center;
+        padding: 50px 20px;
+        background: #f8f9fa;
+    }
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .product-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .product-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        border: 1px solid #ddd;
+    }
+    .product-card h3 {
+        color: #007bff;
+    }
+    .price {
+        font-weight: bold;
+        color: #ff5733;
+        display: block;
+        margin-top: 10px;
+    }
+</style>
+
+<div class="profile-section" data-aos="fade-up">
+    <img src="https://files.catbox.moe/bsfn2n.jpeg" alt="Profil" class="profile-image">
+    <h2>CELLA</h2>
+    <p>Selamat datang di CELLA DIGITAL! Kami menyediakan layanan terbaik untuk kebutuhan digital Anda.</p>
+</div>
+
+<style>
+    .profile-section {
+        text-align: center;
+        padding: 50px 20px;
+    }
+    .profile-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+        margin-bottom: 20px;
+    }
+</style>
+
+    <div data-aos="fade-down">
+<style>
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #0f3460;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+    .nav-links {
+        list-style: none;
+        display: flex;
+    }
+    .nav-links li {
+        margin: 0 15px;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    .nav-links a:hover {
+        color: #f1c40f;
+    }
+    .logo {
+        font-size: 22px;
+        font-weight: bold;
+    }
+</style>
+
+
+<div id="particles-js"></div>
+<div id="wave"></div>
+
+<div class="header">  
+    <h1>I'M CELLA</h1>  
+    <div class="description">Layanan VPS murah, cepat, dan berkualitas tinggi untuk kebutuhan Anda.</div>  
+</div>
+
+<div class="content">
+    <h2 class="hidden">VPS</h2>
+
+    <div class="box hidden">
+        <h3>BASIC</h3>
+        <p class="price">Rp 25.000</p>
+        <p>2GB RAM</p>
+        <p>1 CORE CPU</p>
+        <a href="https://t.me/BirdCella" class="btn" data-aos="zoom-in">TELEGRAM</a>
+        <a href="https://wa.me/62882007138253" class="btn" data-aos="zoom-in">WHATSAPP</a>
+    </div>
+
+    <div class="box hidden">
+        <h3>STANDARD</h3>
+        <p class="price">Rp 35.000</p>
+        <p>4GB RAM</p>
+        <p>2 CORE CPU</p>
+        <a href="https://t.me/BirdCella" class="btn" data-aos="zoom-in">TELEGRAM</a>
+        <a href="https://wa.me/62882007138253" class="btn" data-aos="zoom-in">WHATSAPP</a>
+    </div>
+
+    <div class="box hidden">
+        <h3>PREMIUM</h3>
+        <p class="price">Rp 55.000</p>
+        <p>16GB RAM</p>
+        <p>4 CORE CPU</p>
+        <a href="https://t.me/BirdCella" class="btn" data-aos="zoom-in">TELEGRAM</a>
+        <a href="https://wa.me/62882007138253" class="btn" data-aos="zoom-in">WHATSAPP</a>
+    </div>
+    
+<div class="content">
+    <h2 class="hidden">CNC DDOS</h2>
+
+        <div class="box hidden">
+            <h3>CNC + API</h3>
+            <p class="price">Rp 45.000</p>
+            <p class="price">Rp 60.000</p>
+            <p>FREE TUTOR</p>
+            <a href="https://t.me/BirdCella" class="btn" data-aos="zoom-in">TELEGRAM</a>
+            <a href="https://wa.me/62882007138253" class="btn" data-aos="zoom-in">WHATSAPP</a>
+        </div>
+
+        <div class="box hidden">
+            <h3>TOOLS DDOS</h3>
+            <p class="price">Rp 30.000</p>
+            <p>FREE TUTOR</p>
+            <a href="https://t.me/BirdCella" class="btn" data-aos="zoom-in">TELEGRAM</a>
+            <a href="https://wa.me/62882007138253" class="btn" data-aos="zoom-in">WHATSAPP</a>
+        </div>
+
+<div class="content">
+    <h2 class="hidden">PLAN DDOS</h2>
+
+        <div class="box hidden">
+            <h3>SEWA PLAN</h3>
+            <p class="price">Rp 10.000</p>
+            <p>3 day</p>
+            <a href="https://t.me/BirdCella" class="btn" data-aos="zoom-in">TELEGRAM</a>
+            <a href="https://wa.me/62882007138253" class="btn" data-aos="zoom-in">WHATSAPP</a>
+        </div>
+        
+        <div class="box hidden">
+            <h3>SEWA PLAN</h3>
+            <p class="price">Rp 15.000</p>
+            <p>5 day</p>
+            <a href="https://t.me/BirdCella" class="btn" data-aos="zoom-in">TELEGRAM</a>
+            <a href="https://wa.me/62882007138253" class="btn" data-aos="zoom-in">WHATSAPP</a>
+        </div>
+
+        <div class="box hidden">
+            <h3>SEWA PLAN</h3>
+            <p class="price">Rp 25.000</p>
+            <p>1 week</p>
+            <a href="https://t.me/BirdCella" class="btn" data-aos="zoom-in">TELEGRAM</a>
+            <a href="https://wa.me/62882007138253" class="btn" data-aos="zoom-in">WHATSAPP</a>
+        </div>
+
+        <div class="box hidden">
+            <h3>SEWA PLAN</h3>
+            <p class="price">Rp 45.000</p>
+            <p>2 week</p>
+            <a href="https://t.me/BirdCella" class="btn" data-aos="zoom-in">TELEGRAM</a>
+            <a href="https://wa.me/62882007138253" class="btn" data-aos="zoom-in">WHATSAPP</a>
+        </div>
+</div>
+
+<div class="content">
+    <h2>CONTACT US</h2>
+    
+    <div class="box">
+        <h3>Location:</h3>
+        <p>West Java, Indonesia</p>
+    </div>
+    
+    <div class="box">
+        <h3>Email:</h3>
+        <p><a href="mailto:admin@celladigital.com">admin@celladigital.com</a></p>
+    </div>
+    
+    <div class="box">
+        <h3>Call:</h3>
+        <p><a href="tel:+62882007138253">+62 882-0071-38253</a></p>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let hiddenElements = document.querySelectorAll(".hidden");
+        let observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        });
+        hiddenElements.forEach(el => observer.observe(el));
+    });
+
+    // Inisialisasi Particles.js
+    particlesJS("particles-js", {
+        particles: {
+            number: { value: 50, density: { enable: true, value_area: 800 } },
+            color: { value: "#ffffff" },
+            shape: { type: "circle" },
+            opacity: { value: 0.5, random: false },
+            size: { value: 3, random: true },
+            move: { enable: true, speed: 2, direction: "none", random: false, straight: false }
+        }
+    });
+
+    // Inisialisasi Gelombang
+    document.addEventListener("DOMContentLoaded", function() {
+        var wave = document.querySelector("#wave");
+        wavify(wave, {
+            height: 60,
+            bones: 5,
+            amplitude: 40,
+            color: "#4caf50",
+            speed: 0.15
+        });
+    });
+</script>
+
+
+<footer>
+    <p>&copy; 2025 CELLA DIGITAL. All Rights Reserved.</p>
+</footer>
+<style>
+    footer {
+        background: #0f3460;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</div></body>
+</html>
